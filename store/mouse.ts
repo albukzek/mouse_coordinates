@@ -1,10 +1,5 @@
 import { MutationTree, GetterTree, ActionTree } from 'vuex'
-
-export interface MouseState {
-  mouseX: number;
-  mouseY: number;
-}
-
+import { MouseState } from 'interface/model'
 export const state = (): MouseState => ({
   mouseX: 0,
   mouseY: 0,
